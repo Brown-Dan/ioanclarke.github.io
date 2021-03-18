@@ -1,56 +1,53 @@
 import './App.css';
-import react, {useState} from 'react'
-import NameDisplay from './components/MainDisplay'
-import Menu from './components/Menu'
+import React, {useState} from 'react'
+import {BrowserRouter as Router, Route, Switch} from "react-router-dom";
+
 import Home from './components/Home'
 import Projects from './components/Projects'
 import Bio from './components/Bio'
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  Link
-} from "react-router-dom";
+import Menu from "./components/Menu";
 
 const App = () => {
 
-  const [firstTime, setFirstTime] = useState(true)
+    const [firstTime, setFirstTime] = useState(true)
 
-  window.onload = () => {
-    const menu = document.getElementById('menu')
-    const nameBox = document.getElementById('nameBox')
-    setTimeout(() => 
-      nameBox.style.width = 80 + '%', 
-      1000)
-    setTimeout(() => 
-      menu.style.display = 'flex', 
-      2000)
-  }
+    window.onload = () => {
+        console.log('loaded')
+        const menu = document.getElementById('menu')
+        const nameBox = document.getElementById('nameBox');
+        if (nameBox !== null) {
+            nameBox.style.width = 100 + '%'
+            setTimeout(() =>
+                    nameBox.style.width = 80 + '%',
+                1000)
+            setTimeout(() =>
+                    menu.style.display = 'flex',
+                2000)
+        } else {
+            menu.style.display = 'flex'
+        }
+    }
+    const wrapperStyle = {
+        backgroundColor: "rgb(0, 0, 53)",
+        height: "100vh",
+        width: "100vw"
+    }
 
+    return (
+        <Router>
+            <div id="content-wraper" style={wrapperStyle}>
+                <div id='main'>
+                    <Switch>
+                        <Route path='/projects'><Projects/></Route>
+                        <Route path='/bio'><Bio/></Route>
+                        <Route path='/'><Home firstTime={firstTime}/></Route>
+                    </Switch>
+                </div>
+                <Menu />
+            </div>
+        </Router>
 
-  return (
-    <Router>
-      <div id='menu'>
-        <Link className='menu-item' to='/' onClick={() => setFirstTime(false)}>home</Link>
-        <Link className='menu-item' to='/projects' onClick={() => setFirstTime(false)}>projects</Link>
-        <Link className='menu-item' to='/bio' onClick={() => setFirstTime(false)}>bio</Link>
-      </div>
-
-      <div id='main'>
-        <Switch>
-          <Route path='/projects'>
-            <Projects />
-          </Route>
-          <Route path='/bio'>
-            <Bio />
-          </Route>
-          <Route path='/'>
-            <Home firstTime={firstTime}/>
-          </Route>
-        </Switch>
-      </div>
-    </Router>
-  )
+    )
 }
 
 export default App;

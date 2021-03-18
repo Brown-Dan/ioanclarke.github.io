@@ -1,29 +1,6 @@
-
-#nameBox {
-  background-color: black;
-  color: white;
+.displayBox {
   height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  float: left;
-  transition-property: width;
-  transition-delay: 0s;
-  transition-timing-function: ease-out;
-  transition-duration: 1s;
-  /* animation: 3s ease-in 1s 1 normal both paused slidein */
-}
-
-#menu {
-  background-color: green;
-  height: 100vh;
-  width: 20%;
-  float: right;
-  display: none;
-  animation: growMenu 1s ease-out;
-  
-  flex-direction: column;
+  width: 80%;
 }
 
 @keyframes growMenu {
@@ -36,10 +13,4 @@
     transform: scale(1);
     opacity: 1
   }
-}
-
-.menu-item {
-  height: 10vh;
-  border: 1px solid black;
-  display: block;
 }

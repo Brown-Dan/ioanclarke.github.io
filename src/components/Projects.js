@@ -1,2 +1,12 @@
-const Projects = () => <h1>projects</h1>
+const Projects = () => {
+    const boxStyle = {
+        height: '100vh',
+        width: '80%'
+    }
+
+    return (
+        <div>projects</div>
+
+    )
+}
 export default Projects

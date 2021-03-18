@@ -1,2 +1,2 @@
-const Bio = () => <h1>bio</h1>
+const Bio = () => <div>bio</div>
 export default Bio
