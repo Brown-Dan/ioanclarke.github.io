@@ -1,6 +1,6 @@
 .contentBox {
   height: 100vh;
-  width: 80%;
+  width: 95%;
   float: left;
   color: white;
   background-color: rgb(48, 2, 107);
@@ -61,6 +61,18 @@ body {
   background-color: rgb(48, 2, 107);
 }
 
-.zoom-on-hover:hover {
-  transform: scale(1.1)
+.project-item:hover {
+  transform: scale(1.1);
+}
+
+.project-item:hover span:nth-child(1) {
+  display: none;
+}
+
+.project-item span:nth-child(2) {
+  display: none;
+}
+
+.project-item:hover span:nth-child(2) {
+  display: inline;
 }

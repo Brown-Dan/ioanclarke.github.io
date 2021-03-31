@@ -1,5 +1,4 @@
 import './App.css';
-import React, {useState} from 'react'
 import {BrowserRouter as Router, Route, Switch} from "react-router-dom";
 
 import Intro from './components/Intro'
@@ -11,7 +10,6 @@ import Menu from "./components/Menu";
 const App = () => {
 
     window.onload = () => {
-        console.log('loaded')
         const menu = document.getElementById('menu')
         const nameBox = document.getElementById('nameBox');
         if (nameBox !== null) {
@@ -23,7 +21,7 @@ const App = () => {
             nameBox.style.width = 100 + '%'
             setTimeout(() => {
                     nameBox.style.transition = 'width 1s ease-out'
-                    nameBox.style.width = 80 + '%'
+                    nameBox.style.width = 95 + '%'
 
             }, timeUntilNameBoxNarrows)
 
@@ -47,7 +45,7 @@ const App = () => {
     }
 
     const contentBoxClassName = 'contentBox'
-    const pages = ['home', 'projects', 'bio', 'intro']
+    // const pages = ['home', 'projects', 'bio', 'intro']
     // const routes = []
     // let ComponentName
     // let path
@@ -80,7 +78,6 @@ const App = () => {
             name: <Intro divClassName={contentBoxClassName}/>
         }
     ]
-    routes.forEach(route => console.log(route))
     return (
         <Router>
             <div id="content-wrapper" style={wrapperStyle}>
