@@ -1,7 +1,9 @@
 import MenuItem from './MenuItem';
+import SocialLink from "./SocialLink";
 import homeIcon from '../images/home.png'
 import projectIcon from '../images/projects.png'
 import bioIcon from '../images/bio.png'
+import githubIcon from '../images/github-thin.png'
 
 const Menu = () => {
     const menuStyle = {
@@ -17,9 +19,10 @@ const Menu = () => {
 
     return (
         <div id='menu' style={menuStyle}>
-            <MenuItem link='/home' text='home' imageFile={homeIcon}/>
+            {/*<MenuItem link='/home' text='home' imageFile={homeIcon}/>*/}
             <MenuItem link='/projects' text='projects' imageFile={projectIcon}/>
             <MenuItem link='/bio' text='bio' imageFile={bioIcon}/>
+            <SocialLink link="https://github.com/ioanclarke" imageFile={githubIcon}/>
         </div>
 
     );

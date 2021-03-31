@@ -61,10 +61,10 @@ const App = () => {
     // }
 
     const routes = [
-        {
-            path: '/home',
-            name: <Home divClassName={contentBoxClassName}/>
-        },
+        // {
+        //     path: '/home',
+        //     name: <Home divClassName={contentBoxClassName}/>
+        // },
         {
             path: '/projects',
             name: <Projects divClassName={contentBoxClassName}/>

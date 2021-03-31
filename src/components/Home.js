@@ -2,7 +2,7 @@ const Home = ({divClassName}) => {
 
     return (
         <div className={divClassName}>
-            home. GIVE ATTRIBUTION TO ICONS
+            home. GIVE ATTRIBUTION TO ICONS from iconfinder
         </div>
     )
 }
