@@ -1,7 +1,6 @@
 import {Link} from "react-router-dom";
 
 const MenuItem = ({link, text, imageFile}) => {
-
     return (
         <div className='menu-item-wrapper'>
             <Link to={link} className="menu-item">

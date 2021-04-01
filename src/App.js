@@ -2,7 +2,6 @@ import './App.css';
 import {BrowserRouter as Router, Route, Switch} from "react-router-dom";
 
 import Intro from './components/Intro'
-import Home from './components/Home'
 import Projects from './components/Projects'
 import Bio from './components/Bio'
 import Menu from "./components/Menu";
@@ -20,8 +19,8 @@ const App = () => {
 
             nameBox.style.width = 100 + '%'
             setTimeout(() => {
-                    nameBox.style.transition = 'width 1s ease-out'
-                    nameBox.style.width = 95 + '%'
+                nameBox.style.transition = 'width 1s ease-out'
+                nameBox.style.width = 95 + '%'
 
             }, timeUntilNameBoxNarrows)
 
@@ -30,9 +29,15 @@ const App = () => {
                 introTextContainer.style.borderRight = '0.1em solid transparent'
             }, typewriterAnimationDuration + 200)
 
-            setTimeout(() =>
-                    menu.style.display = 'flex',
-                timeUntilMenuAppears)
+            setTimeout(() => {
+                menu.style.display = 'flex'
+                // const menuItems = document.getElementsByClassName('menu-item')
+                // for (const item of menuItems) {
+                //     const itemWidth = item.style.width
+                //     item.style.height = itemWidth + 'px'
+                // }
+
+            }, timeUntilMenuAppears)
 
         } else {
             menu.style.display = 'flex'
@@ -91,7 +96,7 @@ const App = () => {
                         {/*<Route path='/'><Intro/></Route>*/}
                     </Switch>
                 </div>
-                <Menu />
+                <Menu/>
             </div>
         </Router>
 
