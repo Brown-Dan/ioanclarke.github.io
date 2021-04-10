@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/ioanclarke.github.io/static/css/main.31931be9.chunk.css",
+    "main.js": "/ioanclarke.github.io/static/js/main.89b804f8.chunk.js",
+    "main.js.map": "/ioanclarke.github.io/static/js/main.89b804f8.chunk.js.map",
+    "runtime-main.js": "/ioanclarke.github.io/static/js/runtime-main.73dddb0e.js",
+    "runtime-main.js.map": "/ioanclarke.github.io/static/js/runtime-main.73dddb0e.js.map",
+    "static/js/2.48368e75.chunk.js": "/ioanclarke.github.io/static/js/2.48368e75.chunk.js",
+    "static/js/2.48368e75.chunk.js.map": "/ioanclarke.github.io/static/js/2.48368e75.chunk.js.map",
+    "index.html": "/ioanclarke.github.io/index.html",
+    "static/css/main.31931be9.chunk.css.map": "/ioanclarke.github.io/static/css/main.31931be9.chunk.css.map",
+    "static/js/2.48368e75.chunk.js.LICENSE.txt": "/ioanclarke.github.io/static/js/2.48368e75.chunk.js.LICENSE.txt",
+    "static/media/bio.f918da07.png": "/ioanclarke.github.io/static/media/bio.f918da07.png",
+    "static/media/github-thin.6e513770.png": "/ioanclarke.github.io/static/media/github-thin.6e513770.png",
+    "static/media/profile-pic.94fd239e.jpg": "/ioanclarke.github.io/static/media/profile-pic.94fd239e.jpg",
+    "static/media/projects.c19f338e.png": "/ioanclarke.github.io/static/media/projects.c19f338e.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.73dddb0e.js",
+    "static/js/2.48368e75.chunk.js",
+    "static/css/main.31931be9.chunk.css",
+    "static/js/main.89b804f8.chunk.js"
+  ]
+}
