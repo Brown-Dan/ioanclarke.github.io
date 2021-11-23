@@ -10,7 +10,7 @@
     position: absolute;
     right: -100px;
     animation: slide-in-from-right 1s forwards;
-    animation-delay: var(--typewriter-duration);
+    animation-delay: calc(var(--typewriter-duration) + 0.3s);
     border-left: solid 3px var(--border-color);
 }
 
@@ -42,7 +42,7 @@
 
 .menu-item {
     color: white;
-    border: 0.07em var(--border-color) solid;
+    border: 3px var(--border-color) solid;
     border-radius: 3vw;
     font-size: 2em;
     text-decoration: none;
