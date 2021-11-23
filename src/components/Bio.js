@@ -1,24 +1,11 @@
-import profilePic from "../images/profile-pic.jpg";
-const Bio = ({divClassName}) => {
-    const profilePicStyle = {
-        display: 'block',
-        margin: 'auto',
-        height: '50vh',
-        borderRadius: '5vw'
-    }
-    const divStyle = {
-        width: '80%',
-        margin: 'auto'
-    }
+import profilePic from "../static/img/profile-pic.jpg";
+import "../static/css/bio.css"
 
-    return (
-        <div className={divClassName}>
-            <div style={divStyle}>
-                <img src={profilePic} style={profilePicStyle} alt="yours truly"/>
-            </div>
-        </div>
+const Bio = () => (
+    <div className="content-wrapper">
+        <img src={profilePic} id="profile-pic" alt="yours truly"/>
+    </div>
 
-    )
-}
+)
 
 export default Bio

@@ -1,0 +1,111 @@
+#menu {
+    background-color: var(--secondary-color);
+    height: 100vh;
+    width: 5%;
+    float: right;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: -100px;
+    animation: slide-in-from-right 1s forwards;
+    animation-delay: var(--typewriter-duration);
+    /*border-left: solid 3px var(--border-color);*/
+}
+
+@keyframes slide-in-from-right {
+    100% {
+        right: 0;
+    }
+}
+
+/*@keyframes growMenu {*/
+/*    0% {*/
+/*        transform: scale(0.5);*/
+/*        opacity: 0*/
+/*    }*/
+
+/*    100% {*/
+/*        transform: scale(1);*/
+/*        opacity: 1*/
+/*    }*/
+/*}*/
+
+#icon-attribution {
+    transform: rotate(-90deg);
+    white-space: nowrap;
+    margin-top: 50vh;
+    color: white;
+}
+
+#icon-attribution-link {
+    text-decoration: none;
+    color: greenyellow;
+}
+
+
+.menu-item {
+    color: white;
+    /*height: 9vh;*/
+    /*width: 9vh;*/
+    /*width: 80%;*/
+    /*height: 0;*/
+    /*padding-bottom: 100%;*/
+    border: 0.07em var(--border-color) solid;
+    border-radius: 3vw;
+    font-size: 2em;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1vh auto;
+    /*z-index: 2;*/
+    position: relative;
+    width: 4vw;
+    height: 4vw;
+    /*z-index: 10;*/
+    /*width: 80%;*/
+    /*height: 0;*/
+    /*padding-bottom: 70%;*/
+}
+
+/* This class is required to prevent the tooltip appearing on top of the menu items*/
+.menu-item-wrapper {
+    z-index: 10;
+}
+.menu-item:hover {
+    background-color: var(--main-color);
+}
+
+.menu-link-tooltip {
+    display: none;
+    position: absolute;
+    right: 2vw;
+    z-index: -1;
+    background-color: var(--tertiary-color);
+    font-size: 0.8em;
+    padding: 3px 3vw 3px 1vw;
+    border-radius: 20px;
+}
+
+.menu-item:hover .menu-link-tooltip {
+    display: block;
+    animation: tooltipSlideIn 0.5s;
+}
+
+@keyframes tooltipSlideIn {
+    from {
+        right: 0
+    }
+    to {
+        right: 2vw;
+    }
+}
+
+.menu-item-icon {
+    width: 70%;
+    height: 70%;
+    filter: invert(1);
+    z-index: 2;
+    /*position: relative;*/
+}
+

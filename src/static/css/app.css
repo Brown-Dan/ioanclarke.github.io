@@ -1,0 +1,34 @@
+:root {
+    --main-color: #151415;
+    --secondary-color: #2F2D2F;
+    --tertiary-color: #7da044;
+    --border-color:#E5DFE5;
+    --font-color: whitesmoke;
+
+    --typewriter-duration: 1.7s;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Anonymous Pro', monospace;
+    box-sizing: border-box;
+}
+
+#site-wrapper {
+    background-color: var(--secondary-color);
+    height: 100vh;
+    width: 100vw;
+
+}
+
+.content-wrapper {
+    height: 100vh;
+    width: 95%;
+    float: left;
+    color: whitesmoke;
+    background-color: var(--main-color);
+}

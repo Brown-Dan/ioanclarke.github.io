@@ -1,35 +1,14 @@
-const ProjectItem = ({projectName, repoName, description}) => {
-    const projectItemStyle = {
-        backgroundColor: 'rgb(0, 0, 53)',
-        // backgroundColor: '#D9DCDC',
-        width: '90%',
-        height: '90%',
-        borderRadius: '5px',
-        display: 'flex',
-        alignItems: 'center',
-        justifyContent: 'center',
-        textDecoration: 'none',
-        color: 'white',
-        transition: 'transform .5s'
-    }
+import "../static/css/projects.css"
 
-    const descriptionStyle = {
-        textAlign: 'center',
-        width: '90%'
-    }
-
-    return (
-        <a href={`https://github.com/ioanclarke/${repoName}`}
-           style={projectItemStyle}
-           className="project-item"
-           target="_blank"
-           rel="noopener noreferrer"
-        >
-            <span>{projectName}</span>
-            <span style={descriptionStyle}>{description}</span>
-        </a>
-
-    )
-}
+const ProjectItem = ({projectName, repoName, description}) => (
+    <a href={`https://github.com/ioanclarke/${repoName}`}
+       className="project-item"
+       target="_blank"
+       rel="noopener noreferrer"
+    >
+        <span>{projectName}</span>
+        <span className="project-item-description">{description}</span>
+    </a>
+)
 
 export default ProjectItem

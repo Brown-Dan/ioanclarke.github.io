@@ -1,9 +1,9 @@
-const Home = ({divClassName}) => {
+import "../static/css/home.css"
 
-    return (
-        <div className={divClassName}>
-            home. GIVE ATTRIBUTION TO ICONS from iconfinder
-        </div>
-    )
-}
-export default Home 
+const Home = () => (
+    <div id="nameContainerContainer" className="content-wrapper">
+        <div id="nameContainer" className="typewriter"><h1>Ioan Clarke.</h1></div>
+    </div>
+)
+
+export default Home
