@@ -1,4 +1,4 @@
-const projectList = [
+const projects = [
     {
         name: 'glide',
         repo: 'glide',
@@ -47,4 +47,4 @@ const projectList = [
         description: 'A tool to scrape data and automatically generate files for the Overwatch miniwiki'
     }
 ]
- export default projectList
+ export default projects

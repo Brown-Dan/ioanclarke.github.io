@@ -10,11 +10,13 @@ import githubIcon from '../../static/img/github-thin.png'
 
 const Menu = () => (
     <div id='menu'>
-        <MenuItem link='/projects' text='projects' imageFilename={projectIcon}/>
+        <div id="icon-container">
+            <MenuItem link='/projects' text='projects' imageFilename={projectIcon}/>
 
-        <MenuItem link='/bio' text='bio' imageFilename={bioIcon}/>
+            <MenuItem link='/bio' text='bio' imageFilename={bioIcon}/>
 
-        <SocialLink link="https://github.com/ioanclarke" text='github' imageFilename={githubIcon}/>
+            <SocialLink link="https://github.com/ioanclarke" text='github' imageFilename={githubIcon}/>
+        </div>
 
         <IconAttribution/>
     </div>

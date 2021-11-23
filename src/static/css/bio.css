@@ -1,8 +1,15 @@
-#profile-pic {
-    display: block;
-    margin: auto;
-    height: 50vh;
-    border-radius: 5vw;
+#bio-container {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin: 5vh auto;
+    align-self: start;
 }
 
-
+#profile-pic {
+    display: block;
+    margin: 3vh auto;
+    height: 30vh;
+    border: solid 3px var(--border-color);
+    border-radius: 5vw;
+}

@@ -2,7 +2,7 @@
     --main-color: #151415;
     --secondary-color: #2F2D2F;
     --tertiary-color: #7da044;
-    --border-color:#E5DFE5;
+    --border-color: #b2b0b0;
     --font-color: whitesmoke;
 
     --typewriter-duration: 1.7s;
@@ -15,20 +15,18 @@
 body {
     margin: 0;
     font-family: 'Anonymous Pro', monospace;
-    box-sizing: border-box;
-}
-
-#site-wrapper {
-    background-color: var(--secondary-color);
-    height: 100vh;
-    width: 100vw;
-
-}
-
-.content-wrapper {
-    height: 100vh;
-    width: 95%;
-    float: left;
     color: whitesmoke;
     background-color: var(--main-color);
+    /*display: flex;*/
+    /*justify-content: center;*/
+    /*align-items: center;*/
+}
+
+/* This is the div that is the mount point of the React app*/
+#root {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

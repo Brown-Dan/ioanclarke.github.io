@@ -2,24 +2,26 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
-    row-gap: 1vh;
-    column-gap: 1vw;
+    /*row-gap: 1vh;*/
+    /*column-gap: 1vw;*/
     place-items: center center;
-    /*margin: 3vh 3vw;*/
-    padding: 10vh 10vw;
+    height: 70%;
+    width: 70%;
 }
 
 .project-item {
     background-color: var(--secondary-color);
-    width: 60%;
-    height: 60%;
+    width: 95%;
+    height: 90%;
     border-radius: 5px;
     display: flex;
     align-items: center;
     justify-content: center;
     text-decoration: none;
     color: white;
-    transition: transform .5s;
+    transition: transform .2s;
+    border: 2px solid var(--border-color);
+    box-shadow: 4px 4px 2px var(--tertiary-color);
 }
 
 .project-item:hover {
