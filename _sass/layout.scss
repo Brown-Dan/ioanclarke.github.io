@@ -1,0 +1,18 @@
+body {
+	font-family: 'Anonymous Pro', monospace;
+	margin-top: 0;
+	width:  50vw;
+	margin:  0 auto;
+	background-color: #f0f1f2;
+}
+
+
+main {
+	// background-color: var(--primary-color);
+	padding: 10px var(--content-horizontal-padding);
+	--corner-rounding: 10px;
+	border-bottom-right-radius: var(--corner-rounding);
+	border-bottom-left-radius: var(--corner-rounding);
+	color: var(--font-color);
+}
+

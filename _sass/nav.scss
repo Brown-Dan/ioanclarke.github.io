@@ -1,0 +1,43 @@
+nav {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  // background-color: var(--secondary-color);
+  padding: 0 var(--content-horizontal-padding);
+  margin-bottom: 50px;
+  justify-content: space-around;
+
+  menu {
+    display: flex;
+    align-items: center;
+    padding-left: 0;
+    // list-style-position: inside;
+    list-style-type: none;
+
+    li {
+      padding-right: 50px;
+
+      a {
+        text-decoration: none;
+        color: var(--tertiary-color);
+      }
+
+      a.current {
+        color: var(--font-color);
+        border-bottom: solid 1px var(--font-color);
+      }
+    }
+
+    // li::marker {
+    //   /* This is a hack to get around list-style-position: inside causing a wide right margin on the marker/bmenulet */
+    //   content: "\2022";
+    //   color: var(--primary-color);
+    // }
+
+
+    // li[class="current"]::marker {
+    //     color: var(--secondary-color);
+    // }
+  }
+}
+

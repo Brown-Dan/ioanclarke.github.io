@@ -1,0 +1,16 @@
+- name: ePy
+  repo: epy
+  desc: read spreadsheets then send emails
+- name: glide
+  repo: glide
+  desc: movement-based game
+- name: pulsemouse
+  repo: pulsemouse
+  desc: control your computer with phone
+- name: overwatch-me
+  repo: overwatch-me
+  desc: scrape Overwatch player stats from playoverwatch.com 
+- name: smite-me
+  repo: smite-me
+  desc: scrape Smite player stats from smite.guru
+

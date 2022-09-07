@@ -1,0 +1,26 @@
+.projects-list {
+	padding-left: 10px;
+    list-style-position: inside;
+
+	li {
+
+		a {
+			// color: var(--font-color);
+			color: #0077aa;
+			// text-decoration: none;
+
+			// &:hover{
+			// 	color: var(--tertiary-color);
+
+			// }
+		}
+
+		&::marker {
+			content: var(--list-marker);	
+		}
+	}
+
+	#diss-desc {
+		margin-left: 20px;
+	}
+}

@@ -1,0 +1,7 @@
+---
+layout: default
+title: Bio
+---
+Hi, my name is Ioan. I'm a graduate software developer at Auto Trader. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin dapibus tincidunt tristique. Sed scelerisque viverra iaculis. Etiam ornare magna ac turpis hendrerit eleifend. Pellentesque nec tincidunt sapien, auctor elementum mi. Ut lacinia quam vitae elit rutrum, eget porttitor est consectetur. Nunc semper tellus non ex tempor, vitae congue sem iaculis. Quisque luctus tortor vel iaculis sollicitudin. Quisque malesuada, turpis non accumsan elementum, turpis augue euismod nisl, id ullamcorper justo purus at ante. Cras ullamcorper eget nibh at mollis.
+
+Vestibulum sed turpis vitae velit elementum faucibus quis eu tortor. Ut ac turpis eu neque eleifend suscipit a vel lectus. Praesent ac porttitor est, vel varius ante. Mauris in orci nec sapien sodales scelerisque non sit amet lectus. Duis non porta nunc. In tempus feugiat dui vel pellentesque. Etiam sit amet lacinia odio. Nullam malesuada sapien ac blandit mattis. Fusce ut mattis nisl, eget condimentum sapien. Curabitur vulputate ligula vitae lorem tristique venenatis. Quisque vel neque blandit, ultricies mi sit amet, consequat nisi.

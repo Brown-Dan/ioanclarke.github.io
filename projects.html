@@ -1,0 +1,22 @@
+---
+layout: default
+title: Projects
+---
+<h1>Here are some of my projects</h1>
+<ul class="projects-list">
+	<li>
+		<a href="/assets/diss.pdf">System for configuring Discord bots via a web interface</a>
+		<div id="diss-desc">my postgraduate dissertation</span>
+	</li>
+	{% for project in site.data.projects %}
+	<li>
+		<a 
+		href="https://www.github.com/ioanclarke/{{ project.repo }}" 
+		target="_blank" 
+		rel="noopener noreferrer"
+		>
+	{{ project.name }}</a>
+	{{ project.desc }}
+</li>
+{% endfor %}
+</ul>
