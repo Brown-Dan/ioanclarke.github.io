@@ -1,13 +1,5 @@
-collections:
-  authors:
-    output: true
-
+destination: docs/
 defaults:
-  - scope:
-      path: ""
-      type: "authors"
-    values:
-      layout: "author"
   - scope:
       path: ""
       type: "posts"
