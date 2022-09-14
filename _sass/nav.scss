@@ -27,17 +27,6 @@ nav {
         border-bottom: solid 1px var(--font-color);
       }
     }
-
-    // li::marker {
-    //   /* This is a hack to get around list-style-position: inside causing a wide right margin on the marker/bmenulet */
-    //   content: "\2022";
-    //   color: var(--primary-color);
-    // }
-
-
-    // li[class="current"]::marker {
-    //     color: var(--secondary-color);
-    // }
   }
 }
 

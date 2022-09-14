@@ -36,4 +36,6 @@ nav menu li a.current { color: var(--font-color); border-bottom: solid 1px var(-
 
 .posts-list li h2 { font-weight: normal; font-size: 1.25em; display: inline; padding: 0; margin: 0; }
 
+#pfp { height: 20vh; margin: 0 auto; display: block; border-radius: 4px; }
+
 /*# sourceMappingURL=styles.css.map */
