@@ -1,4 +1,6 @@
 destination: docs/
+exclude:
+  - README.md
 defaults:
   - scope:
       path: ""
