@@ -1,0 +1,37 @@
+<table>
+	<thead>
+		<tr>
+			<th>Price</th>
+			<th>Variety</th>
+			<th>Notes</th>
+			<th>Date</th>
+		</tr>
+	</thead>
+	<tbody>
+
+		{% for item in site.data.beers %}
+		<tr>
+			<td>
+				<div>
+					{{ item.price }}
+				</div>
+			</td>
+			<td>
+				<div>
+					{{ item.variety }}	
+				</div>
+			</td>
+			<td>
+				<div>
+					{{ item.notes }}
+				</div>
+			</td>
+			<td>
+				<div>
+					{{ item.date }}
+				</div>
+			</td>
+		</tr>
+		{% endfor %}
+	</tbody>
+</table>

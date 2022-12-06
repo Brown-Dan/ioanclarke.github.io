@@ -38,4 +38,14 @@ nav menu li a.current { color: var(--font-color); border-bottom: solid 1px var(-
 
 #pfp { height: 20vh; margin: 0 auto; display: block; border-radius: 4px; }
 
+table { margin-top: 50px; }
+
+th { margin-bottom: 20px; }
+
+tbody { width: 100%; }
+
+td { overflow-wrap: anywhere; text-align: center; width: 25%; }
+
+td div { width: 80%; margin: 0 auto; }
+
 /*# sourceMappingURL=styles.css.map */
