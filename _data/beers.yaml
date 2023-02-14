@@ -1,4 +1,17 @@
 - price: £3
+  location: Gasworks
   variety: Great Western
   notes: Happy hour price - usually £4
   date: 2022-12-5
+
+- price: £2.50
+  location: The Lost Dene
+  variety: Guest ales
+  notes: Only available at this price on Tuesdays
+  date: 2022
+
+- price: £5
+  location: The Angel
+  variety: Angel Cider
+  notes: Supposedly 7.4% but tasted like juice
+  date: January 2023
