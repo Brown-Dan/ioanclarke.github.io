@@ -4,22 +4,34 @@ nav {
   align-items: center;
   // background-color: var(--secondary-color);
   padding: 0 var(--content-horizontal-padding);
-  margin-bottom: 50px;
+  margin: 0 auto 50px auto;
   justify-content: space-around;
 
+  @media (max-width: 1400px) {
+    width: 50%;
+  }
+
+  @media (max-width:960px) {
+    justify-content: space-between;
+    width: 100%;
+  }
+
   menu {
+    width: 100%;
     display: flex;
     align-items: center;
     padding-left: 0;
     // list-style-position: inside;
     list-style-type: none;
+    justify-content: space-between;
 
     li {
-      padding-right: 50px;
+      // padding: 0 25px;
 
       a {
         text-decoration: none;
         color: var(--tertiary-color);
+
       }
 
       a.current {
@@ -29,4 +41,3 @@ nav {
     }
   }
 }
-

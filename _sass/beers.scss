@@ -1,5 +1,30 @@
 table {
 	margin-top: 50px;
+
+
+	th {
+		&:nth-child(1) {
+			width: 20%;
+		}
+
+		&:nth-child(2) {
+			width: 10%;
+		}
+
+		&:nth-child(3) {
+			width: 20%;
+		}
+
+		// Notes
+		&:nth-child(4) {
+			width: 30%;
+		}
+
+		// Date
+		&:nth-child(5) {
+			width: 20%;
+		}
+	}
 }
 
 th {
@@ -13,7 +38,7 @@ tbody {
 td {
 	overflow-wrap: anywhere;
 	text-align: center;
-	width: 25%;
+	//width: 25%;
 }
 
 td div {

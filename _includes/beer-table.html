@@ -1,6 +1,9 @@
-<table>
+<table style="width: 100%;">
+
+
 	<thead>
 		<tr>
+			<th>Location</th>
 			<th>Price</th>
 			<th>Variety</th>
 			<th>Notes</th>
@@ -13,12 +16,17 @@
 		<tr>
 			<td>
 				<div>
+					{{ item.location }}
+				</div>
+			</td>
+			<td>
+				<div>
 					{{ item.price }}
 				</div>
 			</td>
 			<td>
 				<div>
-					{{ item.variety }}	
+					{{ item.variety }}
 				</div>
 			</td>
 			<td>
