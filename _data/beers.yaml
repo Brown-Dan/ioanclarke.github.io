@@ -1,18 +1,35 @@
 - price: £5
-  location: The Angel
+  location: The Angel, M4
   variety: Angel Cider
   notes: Supposedly 7.4% but tasted like juice
-  date: January 2023
+  date: Jan 2023
 
 - price: £2.50
-  location: The Lost Dene
+  location: The Lost Dene, Deansgate
   variety: Guest ales
   notes: Only available at this price on Tuesdays
-  date: August 2022
+  date: Aug 2022
 
 - price: £3
-  location: Gasworks
+  location: Gasworks, Deansgate
   variety: Great Western
   notes: Happy hour price - usually £4
   date: May 2022
 
+- price: £6.45
+  location: Revolution, Deansgate Locks
+  variety: Moretti 
+  notes: Jaw on the floor
+  date: Jun 2023
+
+- price: £4
+  location: Bricklayers Arms, Salford
+  variety: Diamong Lager
+  notes: My new local, love the place
+  date: Nov 2023
+
+- price: £5.25
+  location: Flight club, Manchester
+  variety: Amstel
+  notes: Fun place, reasonable enough prices
+  date: Nov 2023
